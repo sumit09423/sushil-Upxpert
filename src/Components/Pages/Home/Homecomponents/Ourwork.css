@@ -1,0 +1,65 @@
+.card-work {
+  display: flex;
+  justify-content: center;
+}
+
+.card-work > img {
+  /* height: 350px; */
+  /* width: 33.33333333% ; */
+  border-radius: 20px;
+  /* gap: 10px; */
+  margin-top: 5%;
+}
+
+.btn-cust {
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #6854fc;
+  padding: 10px 20px;
+  width: 178px;
+  /* border: 1px solid red; */
+}
+
+.btn-cust:hover {
+  background-color: #6854fcab;
+}
+
+.left-line {
+  /* border-radius: 20px; */
+  border-right: 2px solid #e2e2e2;
+}
+
+.slog {
+  background-color: rgba(196, 196, 196, 0.15);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Small screens (phones) */
+@media screen and (max-width: 576px) {
+  .work-p{
+    font-size: 12px;
+  }
+  .slog{
+    height: 200px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /* Adjust styles for medium screens */
+  .slog{
+    height: 200px;
+  }
+}
+
+/* Large screens (laptops) */
+@media screen and (min-width: 993px) and (max-width: 1440px) {
+  /* Adjust styles for laptops with a width up to 1440px */
+  
+}

@@ -1,0 +1,31 @@
+.innerline{
+    background-color: #AEE2FF;
+    height: 32px;
+}
+
+.service-p{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.col-lg-3 {
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.svg-back{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 238, 255, 1);
+    border-radius: 100%;
+}
+
+.svg-back>img{
+    width: 50px;
+}

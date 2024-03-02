@@ -1,0 +1,23 @@
+.top-Hader{
+    background-color: #6854FC;
+    height: 30px;
+}
+
+.nav-cust{
+    background-color: #ffffff;
+}
+
+
+.nav-link{
+    cursor: pointer;
+    transition: font-size 0.3s ease-out;
+}
+
+.nav-link:hover{
+    color: #6854fc;
+    font-size: 19px;
+}
+
+.nav-logo{
+    width: 100px;
+}

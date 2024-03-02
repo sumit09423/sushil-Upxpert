@@ -1,0 +1,46 @@
+.title-h2 {
+  font-size: 30px;
+  padding: 5px 5px;
+}
+.title-h3 {
+  font-size: 15px;
+  padding: 5px 5px;
+}
+.dec-p {
+  font-size: 15px;
+  padding: 5px 5px;
+}
+
+.btn-slide {
+  padding: 10px 15px;
+  margin: 20px 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgba(196, 196, 196, 0.3);
+  display: flex;
+  justify-content: center;
+}
+
+.user {
+  display: flex;
+}
+
+/* Small screens (phones) */
+@media screen and (max-width: 576px) {
+  .user {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Medium screens (tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /* Adjust styles for medium screens */
+}
+
+/* Large screens (laptops) */
+@media screen and (min-width: 993px) and (max-width: 1440px) {
+  /* Adjust styles for laptops with a width up to 1440px */
+}
