@@ -8,6 +8,7 @@ import Client from "./Homecomponents/Client";
 import Blog from "./Homecomponents/Blog";
 import Faq from "./Homecomponents/Faq";
 import Contactus from "../../Global/Contactus";
+import Footar from "../../Global/Footar";
 
 const Home = () => {
   return (
@@ -20,16 +21,16 @@ const Home = () => {
       <Client />
       <Blog />
       <Faq />
-      <>
-        <div className="container">
-          <h1 className="text-center">Contact Us</h1>
-          <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-            nobis.
-          </p>
-          <Contactus />
-        </div>
-      </>
+
+      <div className="container">
+        <h1 className="text-center">Contact Us</h1>
+        <p className="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nobis.
+        </p>
+        <Contactus />
+      </div>
+
+      <Footar />
     </>
   );
 };

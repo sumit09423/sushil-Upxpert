@@ -1,0 +1,60 @@
+.footer-out {
+  background-color: #6854fc;
+  padding: 0%;
+  margin: 0%;
+}
+
+.h1-foot {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.foot-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 20px 20px;
+}
+
+.foot-nav > a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+.foot-nav > a:hover {
+  color: black;
+}
+
+.foot-icon{
+    margin: 20px 20px;
+}
+
+.foot-icon > a > img {
+  width: 25px;
+  height: 25px;
+}
+
+.foot-icon > a {
+  background-color: rgba(255, 255, 255, 0.588);
+  padding: 15px 20px ;
+  margin: 10px 10px;
+  border-radius: 30px;
+}
+
+.foot-icon > a:hover{
+    background-color: #7b6fdcd0;
+}
+
+.term {
+  gap: 20px;
+}
+
+.term > a {
+  color: white;
+}
+
+.term > p {
+  color: white;
+}

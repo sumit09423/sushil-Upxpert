@@ -55,49 +55,97 @@ const Contactus = () => {
               </div>
             </div>
             <div className="col-md-8">
-              <form action="#">
-                <div className="input-area">
-                  <div class="input-container">
-                    <input type="text" id="input" required="" />
-                    <label for="input" class="label">
-                      First Name
-                    </label>
-                    <div class="underline"></div>
+              <form
+                action="#"
+                className="container d-flex flex-wrap flex-column align-items-end"
+              >
+                <div>
+                  <div className="input-area">
+                    <div className="input-container">
+                      <input type="text" id="input" required="" />
+                      <label for="input" className="label">
+                        First Name
+                      </label>
+                      <div className="underline"></div>
+                    </div>
+                    <div className="input-container">
+                      <input type="text" id="input" required="" />
+                      <label for="input" className="label">
+                        Last Name
+                      </label>
+                      <div className="underline"></div>
+                    </div>
                   </div>
-                  <div class="input-container">
-                    <input type="text" id="input" required="" />
-                    <label for="input" class="label">
-                      Last Name
-                    </label>
-                    <div class="underline"></div>
+                  <div className="input-area">
+                    <div className="input-container">
+                      <input type="text" id="input" required="" />
+                      <label for="input" className="label">
+                        Email
+                      </label>
+                      <div className="underline"></div>
+                    </div>
+                    <div className="input-container">
+                      <input type="text" id="input" required="" />
+                      <label for="input" className="label">
+                        Phone
+                      </label>
+                      <div className="underline"></div>
+                    </div>
+                  </div>
+                  <div className="check-box">
+                    <p>What Services do you Need ?</p>
+                    <div className="check">
+                      <label className="material-checkbox">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                        Website Design
+                      </label>
+                      <label className="material-checkbox">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                        Web Development
+                      </label>
+                      <label className="material-checkbox">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                        Mobile App Development
+                      </label>
+                      <label className="material-checkbox">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                        Content Writing
+                      </label>
+                      <label className="material-checkbox">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                        Email Marketing
+                      </label>
+                      <label className="material-checkbox">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                        Digital Marketing
+                      </label>
+                      <label className="material-checkbox">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                        Other
+                      </label>
+                    </div>
+                  </div>
+                  <div class="feed-text">
+                    <label>Message</label>
+                    <div class="expandable-textarea">
+                      <textarea
+                        placeholder="Share Requierment With Us"
+                        rows="5"
+                        oninput="this.parentNode.dataset.replicatedValue = this.value"
+                        onblur="this.parentNode.dataset.replicatedValue = null"
+                        onclick="this.parentNode.dataset.replicatedValue = this.value"
+                      ></textarea>
+                    </div>
                   </div>
                 </div>
-                <div className="input-area">
-                  <div class="input-container">
-                    <input type="text" id="input" required="" />
-                    <label for="input" class="label">
-                      Email
-                    </label>
-                    <div class="underline"></div>
-                  </div>
-                  <div class="input-container">
-                    <input type="text" id="input" required="" />
-                    <label for="input" class="label">
-                      Phone
-                    </label>
-                    <div class="underline"></div>
-                  </div>
-                </div>
-                <div className="check-box">
-                  <p>What Services do you Need ?</p>
-                  <div className="check">
-                    <label class="material-checkbox">
-                      <input type="checkbox" />
-                      <span class="checkmark"></span>
-                      Checkbox Label
-                    </label>
-                  </div>
-                </div>
+                <button className="btn-cont">Contact Us</button>
               </form>
             </div>
           </div>
