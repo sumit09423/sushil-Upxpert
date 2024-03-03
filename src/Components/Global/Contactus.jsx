@@ -11,7 +11,7 @@ const Contactus = () => {
       <div className="container  g-contact my-4">
         <div className="form-area">
           <div className="row">
-            <div className="col-md-4 contact-info">
+            <div className="col-lg-4 col-md-12 contact-info">
               <div className="info">
                 <h1>Contact Information</h1>
                 <p>
@@ -54,7 +54,7 @@ const Contactus = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-8">
+            <div className="col-lg-8 col-md-12">
               <form
                 action="#"
                 className="container d-flex flex-wrap flex-column align-items-end"

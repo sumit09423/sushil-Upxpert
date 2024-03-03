@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Approute from "./Approute";
 import Homepage from "../Pages/Home/Home";
-import Workindex from "../Pages/Work/Workindex";
+import Servicehome from "../Pages/Service/Servicehome";
 
 const Rout = () => {
   return (
@@ -18,7 +18,7 @@ const Rout = () => {
         {/* Home Page Route  */}
         <Route path="/" element={<Homepage />} />
         {/* Work Page Route */}
-        <Route path="/work" element={<Workindex />} />
+        <Route path="/Service" element={<Servicehome/>} />
       </Routes>
     </BrowserRouter>
   );

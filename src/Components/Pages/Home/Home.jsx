@@ -3,7 +3,7 @@ import Slider from "./Homecomponents/Slider";
 import Service from "./Homecomponents/Service";
 import Companies from "./Homecomponents/Companies";
 import Ourprocess from "./Homecomponents/Ourprocess";
-import Ourwork from "./Homecomponents/Ourwork";
+import Ourwork from "../../Global/Ourwork";
 import Client from "./Homecomponents/Client";
 import Blog from "./Homecomponents/Blog";
 import Faq from "./Homecomponents/Faq";

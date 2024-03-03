@@ -38,7 +38,7 @@ const Approute = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/work" className="nav-link">Works</NavLink>
+                <NavLink to="/Service" className="nav-link">Service</NavLink>
               </li>
 
               {/* <li className="nav-item">

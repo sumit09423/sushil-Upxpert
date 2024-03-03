@@ -268,43 +268,69 @@ textarea:focus {
     height: 100%;
     box-shadow: none;
   }
-  .form-area{
+  .form-area {
     padding: 0%;
   }
-  .contact-info{
+  .contact-info {
     padding: 15px 10px;
     height: auto;
-
   }
-  .input-container{
-    width: 200px;
+  .input-container {
+    width: 100%;
   }
-  .check-box{
+  .check-box {
     margin: 0px;
   }
-  .feed-text{
+  .feed-text {
     padding: 0px;
     margin: 10px 2px;
   }
-  .btn-cont{
+  .btn-cont {
     margin-top: 20px;
     width: 100%;
     margin-right: 0px;
   }
 
-  .info > h1{
+  .info > h1 {
     font-size: 18px;
   }
 
-  .info-text{
+  .info-text {
     width: 75%;
     padding-left: 12px;
+  }
+  .foot-icon {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-lg-8.col-md-12 {
+    margin-top: 3%;
   }
 }
 
 /* Medium screens (tablets) */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   /* Adjust styles for medium screens */
+  .g-contact {
+    max-height: 100%;
+    background-color: transparent;
+    height: 100%;
+    box-shadow: none;
+  }
+  .form-area > .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .input-container {
+    width: 45%;
+  }
+  .col-lg-8.col-md-12 {
+    margin-top: 3%;
+  }
+  .contact-info {
+    background-repeat: repeat;
+  }
 }
 
 /* Large screens (laptops) */

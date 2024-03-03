@@ -1,8 +1,8 @@
 import React from "react";
 import "./Ourwork.css";
-import ourwork1 from "../../../../assets/images/ourwork1.png";
-import ourwork2 from "../../../../assets/images/ourwork2.png";
-import ourwork3 from "../../../../assets/images/ourwork3.png";
+import ourwork1 from "../../assets/images/ourwork1.png";
+import ourwork2 from "../../assets/images/ourwork2.png";
+import ourwork3 from "../../assets/images/ourwork3.png";
 
 const Ourwork = () => {
   return (
@@ -41,7 +41,7 @@ const Ourwork = () => {
               </h1>
             </div>
             <div className="col-lg-7 col-sm-12">
-              <p className="work-p" >
+              <p className="work-p">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Deleniti libero nam, recusandae blanditiis labore facilis
                 officia obcaecati in ducimus sed.
